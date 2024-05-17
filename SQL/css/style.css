@@ -1,0 +1,51 @@
+.sql-page {
+    width:100%;
+    background: #f1f1f1;
+}
+.sql-page .mainheading {
+    background-color:#174035;
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    position : relative;
+    text-align: center;
+    color:white;
+}
+.sql-page .mainheading h2 {
+    font-weight : 600;
+    position:absolute;
+    top:50%;
+    left:48%;
+}
+.sql-page .container button {
+    color : black;
+    text-decoration: none;
+}
+.card {
+    background : lightgrey;
+}
+.card:hover {
+    background: #174035;
+}
+.card:hover button {
+    color:white;
+}
+.card-body {
+    color: black;
+    background: white;
+}
+.btn.btn-link:focus {
+    box-shadow : none;
+}
+.inner-heading {
+    text-align: center;
+    color: #174035;
+    text-decoration: double;
+    padding: 40px;
+}
+.inner-heading h2 {
+    font-weight : 600;
+}
+.card-body span {
+    color:  #f75709;
+}

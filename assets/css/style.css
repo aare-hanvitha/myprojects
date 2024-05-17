@@ -1,0 +1,78 @@
+/* Basic styles for demonstration */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor:cursor;
+    position:relative;
+    height: 100%;
+  }
+  
+  .circle {
+  width: 20px;
+  height: 20px;
+  background-color: #f75709;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; /* Allows the cursor to pass through the circle */
+  z-index: 9999;
+}
+  
+  header {
+    color: #fff;
+  }
+  .header-top {
+    background-color: #174035 ;
+  }
+  .header-top-content {
+    text-align: right;
+    padding: 5px;
+    padding-right: 334px;
+    font-size: 14px;
+  }
+  .header-top-content span {
+    padding:10px;
+    border-left: 1px solid #524f4f;
+  }
+  .header-bottom {
+    padding:10px;
+  }
+  nav {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav ul li a:hover {
+    color: #f75709;
+  }
+  .logo {
+    float: left;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  .email:hover,.phone:hover {
+    color: #f75709;
+  }
+  .mybtn {
+    background: #f75709;
+    color: white;
+    font-weight: 600; 
+}

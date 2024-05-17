@@ -1,0 +1,46 @@
+h2{
+    color:#23bbed;
+}
+.mainHeading {
+    background-color:#174035;
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    position : relative;
+    text-align:center;
+}
+.mainHeading h2 {
+    position:absolute;
+    top:40%;
+    color:white;
+}
+.card {
+    display:inline-block;
+    margin:10px;
+    background: #f8f9f9;
+}
+.card-title {
+    color: black;
+}
+.btn.btn-project {
+    margin-top: 10px;
+    background-color: #f75709;
+    border-style: none;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 0px;
+    padding: 8px;
+}
+.btn.btn-project:hover {
+    background-color: #174035;
+}
+.home-page {
+    position:relative;
+  }
+.home-page .container {
+    /* position: absolute;
+    bottom: -12%;
+    left: 15%;
+    text-align: center; */
+    padding-top:40px;
+}

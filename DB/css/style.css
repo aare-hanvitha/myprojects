@@ -1,0 +1,49 @@
+.db-page .mainheading {
+    background-color:#174035;
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    position : relative;
+    text-align: center;
+    color:white;
+}
+.db-page .mainheading h2 {
+    font-weight : 600;
+    position:absolute;
+    top:45%;
+    left:45%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tbody tr:hover {
+    background-color:#f75709;
+    color:white;
+}
+tbody tr:hover a {
+    color: white;
+}
+thead tr:hover {
+    background-color:#174035;
+    color:white;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#videoIcon{
+    color:#23bbed;
+    width:30px;
+    
+}
+tbody a {
+    color: #174035;
+}

@@ -1,0 +1,107 @@
+h2{
+    color:#23bbed;
+}
+.mainHeading {
+    background-color:hsl(164, 47%, 17%);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    position : relative;
+    text-align:center;
+}
+.mainHeading h2 {
+    position:absolute;
+    top:40%;
+    color:white;
+}
+.fe-video-page .mainHeading,.be-video-page .mainHeading {
+    background-color:#174035;
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    position : relative;
+    text-align:center;
+}
+.fe-video-page .mainHeading h2, .be-video-page .mainHeading h2 {
+    position:absolute;
+    top:20%;
+    color:white;
+}
+.card {
+    display:inline-block;
+    margin:10px;
+    background: #f8f9f9;
+}
+.card-title {
+    color: black;
+}
+.btn.btn-project {
+    margin-top: 10px;
+    background-color: #f75709;
+    border-style: none;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 0px;
+    padding: 8px;
+}
+.btn.btn-project:hover {
+    background-color: #174035;
+}
+.boxon-help-page {
+    position:relative;
+}
+.boxon-help-page .container {
+    position: absolute;
+    bottom: -12%;
+    left: 15%;
+    text-align: center;
+}
+
+/* front end page */
+.fe-video-page,.be-video-page {
+    position:relative;
+}
+.fe-video-page .container,.be-video-page .container {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#videoIcon{
+    color:#23bbed;
+    width:30px;
+    
+}
+thead tr {
+    color:white;
+}
+thead tr:hover {
+    color:#f75709;
+}
+tbody tr:hover {
+    background-color:#f75709; ;
+}
+tr td:first-child, tr td:last-child {
+    text-align: center;
+}
+tr th:first-child, tr th:last-child {
+    text-align: center;
+}

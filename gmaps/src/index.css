@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.check_box{
+ width: 26px;
+    height: 26px;
+    position: relative;
+    top: 8px;
+}
+.map_btns{
+  padding: 12px !important;
+}
+.map-data{
+  display: inline-block;
+    margin: 4px 0;
+    padding: 12px 0;
+}
+.tacking_name{
+  border-bottom: 3px solid #a6c138 !important;
+}
+.intransist{
+  padding: 20px;
+  width: 50%;
+    position: fixed;
+    z-index: 22;
+    left: 460px;
+    text-align: center;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(209, 195, 195);
+}
